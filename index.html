@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="24hours format digital time">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Digital Time</title>
+</head>
+<body>
+    <div class="content">
+        <div class="digital-clock">
+            <i class="uil uil-ellipsis-v dot-menu-btn" id="active-menu"></i>
+            <ul class="dot-menu" id="active-menu">
+                <li class="menu-item" id="active-menu">
+                    <span class="clock-format-text" id="active-menu">24-hour format</span>
+                    <div class="format-switch-btn" id="active-menu" data-format="12"></div>
+                </li>
+            </ul>
+            <div class="time">
+                <span class="hr">00</span>
+                <span class="dots">:</span>
+                <span class="min">00</span>
+                
+                <div class="right-side">
+                    <span class="period">PM</span>
+                    <span class="seconds">00</span>
+                </div>
+            </div>
+            <div class="calender">
+                <span class="day-name">Day</span>,
+                <span class="day-number">00</span>
+                <span class="month-name">Month</span>
+                <span class="year">0000</span>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
